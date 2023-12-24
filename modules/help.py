@@ -1,4 +1,8 @@
 class Help():
     def execute(self, cmd):
-        a = cmd.split("help ")[1]
-        pass
+        help = {
+            "ls": "lists directory",
+            "echo": "prints text",
+            "help": "displays help"
+        }
+        print(help)
